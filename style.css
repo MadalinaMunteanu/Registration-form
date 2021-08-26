@@ -1,0 +1,187 @@
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  background-color: rgb(62, 191, 230);
+  border-top: 2em;
+  border-bottom: 2em;
+  border-right: 2em;
+  border-left: 2em;
+  padding: 30px;
+}
+
+h5 {
+  position: relative;
+  left: 30px;
+}
+
+h4,
+h5 {
+  color: beige;
+  font-size: 20px;
+}
+
+#icon {
+  position: relative;
+  top: 60px;
+  left: 0px;
+}
+
+.firstcontainer {
+  background: rgb(0, 120, 255);
+  padding: 0 2em;
+  min-height: 400px;
+}
+
+#image {
+  display: block;
+  max-width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 13%;
+  margin-bottom: auto;
+}
+
+#registerHeader {
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+#subtitle {
+  font-size: 0.8em;
+  font-weight: bolder;
+  color: black;
+  font-weight: 400;
+}
+
+#subtitle2 {
+  font-size: small;
+  font-weight: 200;
+  color: grey;
+}
+
+.flex-container {
+  background: rgb(254, 255, 255);
+  margin: aquamarine;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  min-height: 400px;
+  font-size: small;
+  line-height: 20px;
+}
+
+#fname,
+#lname,
+#phoneNr,
+#email,
+#password,
+#confirmPassword {
+  border-radius: 4px;
+}
+
+input[type="text"] {
+  border: 1px solid rgb(190, 186, 186);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+input[type="tel"] {
+  border: 1px solid rgb(190, 186, 186);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+input[type="email"] {
+  border: 1px solid rgb(190, 186, 186);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+input[type="password"] {
+  border: 1px solid rgb(190, 186, 186);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+#submit-btn {
+  background: rgb(0, 120, 255);
+  color: beige;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+.hr-line {
+  position: relative;
+  display: inline-flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+@media screen and (min-width: 640px) {
+  .flex {
+    display: flex;
+  }
+  .flex-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .attempt1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .split1,
+  .split2,
+  .split3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1;
+  }
+
+  .split1 > label {
+    padding: 1em 0.5em 0.1em 0.5em;
+    flex: 1;
+  }
+  .split1 > input {
+    flex: 2;
+  }
+
+  .split2 > label {
+    padding: 1em 0.5em 0.15em 0.5em;
+    flex: 1;
+  }
+  .split2 > input {
+    flex: 2;
+  }
+
+  .split3 > label {
+    padding: 1em 0.5em 0em 0.5em;
+    flex: 1;
+  }
+  .split3 > input {
+    flex: 2;
+  }
+}
